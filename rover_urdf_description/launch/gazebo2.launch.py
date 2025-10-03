@@ -36,7 +36,7 @@ def generate_launch_description():
                 'rover.world'
                 ]),
             description='pass the world file.'
-        ),
+        ), #test
 
         IncludeLaunchDescription(
             PythonLaunchDescriptionSource([
